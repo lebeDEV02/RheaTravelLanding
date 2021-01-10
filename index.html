@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/nullstyle.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+	<header class="header" id="home">
+		<div class="container">
+			<div class="header__inner">
+				<a class="logo__link" href="#"><img src="img/header-logo.svg" alt="logotype" class="header__logo"></a>
+				<nav class="header__menu">
+					<div class="menu__burger"></div>
+					<ul class="menu__list">
+						<li class="list__item">
+							<a href="#home" class="item__link">
+								Home
+							</a>
+						</li>
+						<li class="list__item">
+							<a href="#video" class="item__link">
+								Video
+							</a>
+						</li>
+						<li class="list__item">
+							<a href="#destinations" class="item__link">
+								Destinations
+							</a>
+						</li>
+						<li class="list__item">
+							<a href="#booking" class="item__link">
+								Booking
+							</a>
+						</li>
+						<button class="menu__button">Sign in</button>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<section class="travel">
+		<div class="container">
+			<h1 class="travel__title">Travel around
+				the world</h1>
+			<p class="travel__text">Plan and book your perfect trip with expert advice,
+				travel tips, destination information and
+				inspiration from us.</p>
+			<button class="travel__sign-up button">Sign Up Now</button>
+		</div>
+	</section>
+	<section class="places">
+		<div class="places__slider">
+			<div class="slider__item">
+				<img src="img/nepal.jpg" alt="" class="item__image">
+				<span class="item__cost">$640</span>
+				<span class="item__place">Kathmandu, Nepal</span>
+				<div class="rating">
+					<div class="rating__stars">
+						<img src="img/fullstar.png" alt="rating star">
+						<img src="img/fullstar.png" alt="rating star">
+						<img src="img/fullstar.png" alt="rating star">
+						<img src="img/fullstar.png" alt="rating star">
+						<img src="img/emptystar.png" alt="rating star">
+					</div>
+					<div class="rating__days">
+						7 days tour
+					</div>
+				</div>
+			</div>
+			<div class="slider__item">
+				<img src="img/indonesia.jpg" alt="" class="item__image">
+				<span class="item__cost">$560</span>
+				<span class="item__place">Raja Ampat, Indonesia</span>
+				<div class="rating">
+					<div class="rating__stars">
+						<img src="img/fullstar.png" alt="rating star">
+						<img src="img/fullstar.png" alt="rating star">
+						<img src="img/fullstar.png" alt="rating star">
+						<img src="img/fullstar.png" alt="rating star">
+						<img src="img/fullstar.png" alt="rating star">
+					</div>
+					<div class="rating__days">
+						14 days tour
+					</div>
+				</div>
+			</div>
+			<div class="slider__item">
+				<img src="img/nepal.jpg" alt="" class="item__image">
+				<span class="item__cost">$640</span>
+				<span class="item__place">Kathmandu, Nepal</span>
+				<div class="rating">
+					<div class="rating__stars">
+						<img src="img/fullstar.png" alt="rating star">
+						<img src="img/fullstar.png" alt="rating star">
+						<img src="img/fullstar.png" alt="rating star">
+						<img src="img/fullstar.png" alt="rating star">
+						<img src="img/emptystar.png" alt="rating star">
+					</div>
+					<div class="rating__days">
+						7 days tour
+					</div>
+				</div>
+			</div>
+			<div class="slider__item">
+				<img src="img/indonesia.jpg" alt="" class="item__image">
+				<span class="item__cost">$560</span>
+				<span class="item__place">Raja Ampat, Indonesia</span>
+				<div class="rating">
+					<div class="rating__stars">
+						<img src="img/fullstar.png" alt="rating star">
+						<img src="img/fullstar.png" alt="rating star">
+						<img src="img/fullstar.png" alt="rating star">
+						<img src="img/fullstar.png" alt="rating star">
+						<img src="img/fullstar.png" alt="rating star">
+					</div>
+					<div class="rating__days">
+						14 days tour
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<h3 class="places__title title">Amazing places to enjoy
+				your travel</h3>
+			<p class="places__text">Etiam facilisis, sapien quis porta dignissim, orci nisi pharetra dui, varius vehicula
+				ligula nulla sit amet lorem.
+				Aenean in vestibulum quam. Cras commodo varius neque, non gravida diam ultrices nec. Cras nulla mauris,
+				fermentum nec
+				libero in.</p>
+			<a href="#" class="places__button button">Explore</a>
+		</div>
+	</section>
+	<section class="videos" id="video">
+		<div class="container">
+			<h3 class="videos__title title">Featured videos</h3>
+			<p class="videos__descr">Aliquam sodales vitae ex tincidunt consectetur. Etiam eleifend malesuada magna, at
+				imperdiet justo euismod eu. Aliquam
+				vel imperdet mi, et convallis eros. Duis fermentum fringilla nisl at vulputate. Nunc nec lorem faucibus,
+				molestie nisi
+				id, elementum sem. Sed
+				vulputate tempor augue a efficitur urna, ultrices eu. Duis vel turpis et arcu.</p>
+			<div class="videos__gallery">
+				<div class="videos__big-item">
+					<img class="videos__big-image" src="img/video-gallery-1.jpg" alt="Maldives">
+					<a data-fancybox href="https://www.youtube.com/watch?v=bZkLuCgORi4&ab_channel=pilotmadeleine"><img
+							class="big-image__icon" src="img/video-icon.svg" alt="video icon"></a>
+					<p class="big-image__descr">When go to Maldives</p>
+					<span class="big-image__duration">03.55</span>
+				</div>
+				<div class="small__videos">
+					<div class="videos__small-item">
+						<div class="small__img">
+							<img class="img__image" src="img/small-img-2.jpg" alt="small image Maldives">
+							<a data-fancybox
+								href="https://www.youtube.com/watch?v=F7e2fi1EC8k&ab_channel=SergiMart%C3%ADnezMir%C3%B3"><img
+									src="img/video-icon.svg" alt="" class="small__img-icon"></a>
+						</div>
+						<div class="small__img-text">
+							<p class="small__img-place">Tanzania’s deadly
+								pink lake
+							</p>
+							<span class="small__img-cost">05.24</span>
+						</div>
+					</div>
+					<div class="videos__small-item">
+						<div class="small__img">
+							<img class="img__image" src="img/small-img-3.jpg" alt="small image Maldives">
+							<a data-fancybox href="https://www.youtube.com/watch?v=DJlmVOSEvGA&ab_channel=WonderlivTravel"><img
+									src="img/video-icon.svg" alt="" class="small__img-icon"></a>
+						</div>
+						<div class="small__img-text">
+							<p class="small__img-place">Top things to do in
+								Kathmandu
+							</p>
+							<span class="small__img-cost">06.12</span>
+						</div>
+					</div>
+					<div class="videos__small-item">
+						<div class="small__img">
+							<img class="img__image" src="img/small-img-4.jpg" alt="small image Maldives">
+							<a data-fancybox href="https://www.youtube.com/watch?v=-UuJxmU6OCQ&ab_channel=AnyuXu"><img
+									src="img/video-icon.svg" alt="" class="small__img-icon"></a>
+						</div>
+						<div class="small__img-text">
+							<p class="small__img-place">Exploring China’s
+								creative capital
+							</p>
+							<span class="small__img-cost">04.33</span>
+						</div>
+					</div>
+					<div class="videos__small-item">
+						<div class="small__img">
+							<img class="img__image" src="img/small-img-2.jpg" alt="small image Maldives">
+							<a data-fancybox
+								href="https://www.youtube.com/watch?v=F7e2fi1EC8k&ab_channel=SergiMart%C3%ADnezMir%C3%B3"><img
+									src="img/video-icon.svg" alt="" class="small__img-icon"></a>
+						</div>
+						<div class="small__img-text">
+							<p class="small__img-place">Tanzania’s deadly
+								pink lake
+							</p>
+							<span class="small__img-cost">05.24</span>
+						</div>
+					</div>
+					<div class="videos__small-item">
+						<div class="small__img">
+							<img class="img__image" src="img/small-img-3.jpg" alt="small image Maldives">
+							<a data-fancybox href="https://www.youtube.com/watch?v=DJlmVOSEvGA&ab_channel=WonderlivTravel"><img
+									src="img/video-icon.svg" alt="" class="small__img-icon"></a>
+						</div>
+						<div class="small__img-text">
+							<p class="small__img-place">Top things to do in
+								Kathmandu
+							</p>
+							<span class="small__img-cost">06.12</span>
+						</div>
+					</div>
+					<div class="videos__small-item">
+						<div class="small__img">
+							<img class="img__image" src="img/small-img-4.jpg" alt="small image Maldives">
+							<a data-fancybox href="https://www.youtube.com/watch?v=-UuJxmU6OCQ&ab_channel=AnyuXu"><img
+									src="img/video-icon.svg" alt="" class="small__img-icon"></a>
+						</div>
+						<div class="small__img-text">
+							<p class="small__img-place">Exploring China’s
+								creative capital
+							</p>
+							<span class="small__img-cost">04.33</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="categories" id="destinations">
+		<div class="container">
+			<h3 class="categories__title title">
+				Travel categories
+			</h3>
+			<p class="categories__text">
+				Maecenas et eros non quam ultricies interdum. Proin ac dolor vel neque ullamcorper blandit vitae et felis.
+				Morbi ante
+				urna, imperdiet vel neque vitae, porta ullamcorper metus. Quisque bibendum venenatis eros sed commodo.
+				Nullam ultrices
+				tortor non diam ullamcorper auctor. In urna tellus, auctor sit amet est ut, scelerisque volutpat diam.
+			</p>
+		</div>
+		<div class="categories__slider">
+			<div class="categories__slider-item">
+				<img src="img/categories-image-2.jpg" alt="Beaches, coast and island" class="categories__slider-item-image">
+				<p class="categories__slider-item-text">Art and culture</p>
+			</div>
+			<div class="categories__slider-item">
+				<img src="img/categories-image-3.jpg" alt="Beaches, coast and island" class="categories__slider-item-image">
+				<p class="categories__slider-item-text">Backpacking</p>
+			</div>
+			<div class="categories__slider-item">
+				<img src="img/categories-image-2.jpg" alt="Beaches, coast and island" class="categories__slider-item-image">
+				<p class="categories__slider-item-text">Art and culture</p>
+			</div>
+			<div class="categories__slider-item">
+				<img src="img/categories-image-3.jpg" alt="Beaches, coast and island" class="categories__slider-item-image">
+				<p class="categories__slider-item-text">Backpacking</p>
+			</div>
+		</div>
+	</section>
+	<section class="experiences">
+		<div class="container">
+			<h3 class="experiences__title title">Traveller’s experiences</h3>
+			<div class="experiences__slider">
+				<div class="experiences__slider-item">
+					<p class="experiences__descr">“Curabitur posuere ullamcorper pulvinar. Donec dignissim bibendum leo, at
+						faucibus enim aliquam eu. Nullam quis pulvinar
+						diam, ac elementum urna. Integer id vehicula tortor, nec pulvinar libero. Ut elit elit, fringilla a
+						nisi ut, dapibus
+						eleifend quam.”</p>
+					<img src="img/experience__author-employment-1.png" alt="author" class="experiences__author-image">
+					<p class="experiences__author-name">Donquixote Law</p>
+					<p class="experiences__author-empoyment">Treveller</p>
+				</div>
+				<div class="experiences__slider-item">
+					<p class="experiences__descr">“Curabitur posuere ullamcorper pulvinar. Donec dignissim bibendum leo, at
+						faucibus enim aliquam eu. Nullam quis pulvinar
+						diam, ac elementum urna. Integer id vehicula tortor, nec pulvinar libero. Ut elit elit, fringilla a
+						nisi ut, dapibus
+						eleifend quam.”</p>
+					<img src="img/experience__author-employment-1.png" alt="author" class="experiences__author-image">
+					<p class="experiences__author-name">Donquixote Law</p>
+					<p class="experiences__author-empoyment">Treveller</p>
+				</div>
+				<div class="experiences__slider-item">
+					<p class="experiences__descr">“Curabitur posuere ullamcorper pulvinar. Donec dignissim bibendum leo, at
+						faucibus enim aliquam eu. Nullam quis pulvinar
+						diam, ac elementum urna. Integer id vehicula tortor, nec pulvinar libero. Ut elit elit, fringilla a
+						nisi ut, dapibus
+						eleifend quam.”</p>
+					<img src="img/experience__author-employment-1.png" alt="author" class="experiences__author-image">
+					<p class="experiences__author-name">Donquixote Law</p>
+					<p class="experiences__author-empoyment">Treveller</p>
+				</div>
+				<div class="experiences__slider-item">
+					<p class="experiences__descr">“Curabitur posuere ullamcorper pulvinar. Donec dignissim bibendum leo, at
+						faucibus enim aliquam eu. Nullam quis pulvinar
+						diam, ac elementum urna. Integer id vehicula tortor, nec pulvinar libero. Ut elit elit, fringilla a
+						nisi ut, dapibus
+						eleifend quam.”</p>
+					<img src="img/experience__author-employment-1.png" alt="author" class="experiences__author-image">
+					<p class="experiences__author-name">Donquixote Law</p>
+					<p class="experiences__author-empoyment">Treveller</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="reserve" id="booking">
+		<div class="container">
+			<h4 class="reserve__pretitle">We will se you</h4>
+			<h2 class="reserve__title">Enjoy 30% Off On First Trip</h2>
+			<form class="reserve__form" method="post">
+				<select class="reserve__destinations">
+					<option hidden selected>Destinations</option>
+					<option value="Nepal" class="reserve__destination-option">Nepal</option>
+					<option value="Indonesia" class="reserve__destination-option">Indonesia</option>
+					<option value="Maldives" class="reserve__destination-option">Maldives</option>
+				</select>
+				<select class="reserve__package">
+					<option class="package__name" hidden selected disabled>Package</option>
+					<option value="Standart" class="reserve__package-option">Standart</option>
+					<option value="Comfort" class="reserve__package-option">Comfort</option>
+					<option value="Business" class="reserve__pachkage-option">Business</option>
+				</select>
+				<input type="date" name="reserve__start" required pattern="Dates">
+				<input type="submit" value="Book Now" class="reserve__submit">
+			</form>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<nav class="footer__nav">
+				<ul class="footer__list">
+					<li class="footer__list-item">
+						<a href="#" class="list-item__link">
+							Home
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a href="#" class="list-item__link">
+							Video
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a href="#" class="list-item__link">
+							Destinations
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a href="#" class="list-item__link">
+							Booking
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a href="#" class="list-item__link">
+							Contact
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a href="#" class="list-item__link">
+							Pricing
+						</a>
+					</li>
+					<li class="footer__list-item">
+						<a href="#" class="list-item__link">
+							Privacy Policy
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<p class="footer__copy">Copyright 2014 - 2018<span class="footer__copy-span">Rhea - Travel Around The
+					World</span></p>
+			<div class="footer__media">
+				<ul class="media__list">
+					<a href="#" class="media__link">
+						<li class="media__list-item">
+							<img src="img/youtube-icon.svg" alt="" class="media_img">
+						</li>
+					</a>
+					<a href="#" class="media__link">
+						<li class="media__list-item">
+							<img src="img/facebook.svg" alt="" class="media_img">
+						</li>
+					</a>
+					<a href="#" class="media__link">
+						<li class="media__list-item">
+							<img src="img/twitter-icon.svg" alt="" class="media_img">
+						</li>
+					</a>
+					<a href="#" class="media__link">
+						<li class="media__list-item">
+							<img src="img/mail-icon.svg" alt="" class="media_img">
+						</li>
+					</a>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
